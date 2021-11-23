@@ -6,7 +6,7 @@ Create an HTML file with a form and include the following inputs:
 |--------------|--------|-------------|
 | Name         | input  | text        |
 | Age          | input  | number      |
-| Sex          | input  | radio       |
+| Gender       | input  | radio       |
 | Race         | select |             |
 | Class        | select |             |
 | Subclass     | select |             |
