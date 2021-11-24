@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Character Sheet</h1>
+    <form action="">
+        <label class="form-label" for="name">Name: </label>
+        <input class="form-control" type="text" name="name" id="name" placeholder="Character's name">
+
+        <br>
+
+        <label class="form-label" for="age">Age: </label>
+        <input class="form-control" type="number" name="age" id="age" step="1" placeholder="0">
+
+        <br>
+
+        <label class="form-label" class="form-label" for="">Gender: </label>
+        <div class="form-check">
+            <input type="radio" name="gender" id="gender_m">
+            <label class="form-label" for="gender_m">Male</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" name="gender" id="gender_f">
+            <label class="form-label" for="gender_f">Female</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" name="gender" id="gender_o">
+            <label class="form-label" for="gender_o">Other</label>
+        </div>
+
+        <br>
+
+        <label class="form-label" for="race">Race: </label>
+        <select name="race" id="race">
+            <option value="" selected disabled>Select a race</option>
+            <option value="human">Human</option>
+            <option value="orc">Orc</option>
+            <option value="elf">Elf</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="class">Class: </label>
+        <select name="class" id="class">
+            <option value="" selected disabled>Select a class</option>
+            <option value="shooter">Ranged</option>
+            <option value="mage">Magic</option>
+            <option value="soldier">Melee</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="subclass">Subclass: </label>
+        <select name="subclass" id="subclass">
+            <option value="" selected disabled>Select a subclass</option>
+            <option value="archer">Archer</option>
+            <option value="crossbowman">Crossbowman</option>
+            <option value="wizard">Wizard</option>
+            <option value="sorcerer">Sorcerer</option>
+            <option value="swordsman">Swordsman</option>
+            <option value="spearman">Spearman</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="equipments">Equipments: </label>
+        <select name="equipments" id="equipments" multiple>
+            <option value="elm">Elm</option>
+            <option value="hat">Hat</option>
+            <option value="tiara">Tiara</option>
+            <option value="leather_armor">Leather Armor</option>
+            <option value="silver_armor">Silver Armor</option>
+            <option value="bronze_armor">Bronze Armor</option>
+            <option value="long_sword">Long Sword</option>
+            <option value="short_sword">Short Sword</option>
+            <option value="bow">Bow</option>
+            <option value="crossbow">Crossbow</option>
+            <option value="staff">Staff</option>
+            <option value="wand">Wand</option>
+            <option value="wooden_shield">Wooden Shield</option>
+            <option value="silver_shield">Silver Shield</option>
+            <option value="bronze_shield">Bronze Shield</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="head">Head: </label>
+        <select name="head" id="head">
+            <option value="" selected disabled>Select a head equipment</option>
+            <option value="elm">Elm</option>
+            <option value="hat">Hat</option>
+            <option value="tiara">Tiara</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="armor">Armadura: </label>
+        <select name="armor" id="armor">
+            <option value="" selected disabled>Select an armor</option>
+            <option value="leather_armor">Leather Armor</option>
+            <option value="silver_armor">Silver Armor</option>
+            <option value="bronze_armor">Bronze Armor</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="weapon">Weapon: </label>
+        <select name="weapon" id="weapon">
+            <option value="" selected disabled>Select a weapon</option>
+            <option value="long_sword">Long Sword</option>
+            <option value="short_sword">Short Sword</option>
+            <option value="bow">Bow</option>
+            <option value="crossbow">Crossbow</option>
+            <option value="staff">Staff</option>
+            <option value="wand">Wand</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="shield">Shield: </label>
+        <select name="shield" id="shield">
+            <option value="" selected disabled>Select a shield</option>
+            <option value="wooden_shield">Wooden Shield</option>
+            <option value="silver_shield">Silver Shield</option>
+            <option value="bronze_shield">Bronze Shield</option>
+        </select>
+
+        <br>
+
+        <label class="form-label" for="str">Strength: </label>
+        <input class="form-control" type="number" name="str" id="str" step="1" min="0" max="99" placeholder="0">
+
+        <br>
+
+        <label class="form-label" for="agi">Agility: </label>
+        <input class="form-control" type="number" name="agi" id="agi" step="1" min="0" max="99" placeholder="0">
+
+        <br>
+
+        <label class="form-label" for="int">Intelligence: </label>
+        <input class="form-control" type="number" name="int" id="int" step="1" min="0" max="99" placeholder="0">
+    
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
