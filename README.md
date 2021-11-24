@@ -10,7 +10,7 @@ Create an HTML file with a form and include the following inputs:
 | Race         | select |             |
 | Class        | select |             |
 | Subclass     | select |             |
-| Equipments   | select |             |
+| Equipments   | select | multiple    |
 | Head Gear    | select |             |
 | Armor        | select |             |
 | Weapon       | select |             |
