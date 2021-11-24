@@ -1,4 +1,20 @@
-# RPGChallenge
-This repository intends to be a step-by-step guide through a complete Web project. It's content is being created on demand and aims to cover the most used skills for Web Developers.
+# First task
 
-> To begin, head to the branch specific to the task you want to apply for. There you will find a directory with a suggested solution for the step previous to the one you are seeing and a README with instructions to the actual step you want.
+Create an HTML file with a form and include the following inputs:
+
+| Information  | Tag    | Notes       |
+|--------------|--------|-------------|
+| Name         | input  | text        |
+| Age          | input  | number      |
+| Gender       | input  | radio       |
+| Race         | select |             |
+| Class        | select |             |
+| Subclass     | select |             |
+| Equipments   | select |             |
+| Head Gear    | select |             |
+| Armor        | select |             |
+| Weapon       | select |             |
+| Shield       | select |             |
+| Strength     | input  | number 0-99 |
+| Agility      | input  | number 0-99 |
+| Intelligence | input  | number 0-99 |
